@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - UrlShortenerApplicationTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>UrlShortenerApplicationTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.observe.url.shortener.html">com.observe.url.shortener</a> &gt; UrlShortenerApplicationTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">2</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.234s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">contextLoads()</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testUrlShort()</td>
+<td class="success">0.230s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>14:06:08.044 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+14:06:08.065 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+14:06:08.106 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.observe.url.shortener.UrlShortenerApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+14:06:08.128 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.observe.url.shortener.UrlShortenerApplicationTests], using SpringBootContextLoader
+14:06:08.133 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.observe.url.shortener.UrlShortenerApplicationTests]: class path resource [com/observe/url/shortener/UrlShortenerApplicationTests-context.xml] does not exist
+14:06:08.134 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.observe.url.shortener.UrlShortenerApplicationTests]: class path resource [com/observe/url/shortener/UrlShortenerApplicationTestsContext.groovy] does not exist
+14:06:08.134 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.observe.url.shortener.UrlShortenerApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+14:06:08.135 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.observe.url.shortener.UrlShortenerApplicationTests]: UrlShortenerApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+14:06:08.194 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.observe.url.shortener.UrlShortenerApplicationTests]
+14:06:08.282 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/Users/shardul.singh/Downloads/shortener/build/classes/java/main/com/observe/url/shortener/UrlShortenerApplication.class]
+14:06:08.284 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.observe.url.shortener.UrlShortenerApplication for test class com.observe.url.shortener.UrlShortenerApplicationTests
+14:06:08.435 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.observe.url.shortener.UrlShortenerApplicationTests]: using defaults.
+14:06:08.436 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+14:06:08.450 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/TransactionDefinition]
+14:06:08.451 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+14:06:08.452 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7e9c4dd6, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@291ca1e, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1c55f8a9, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@56e6e133, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4a08f4c4, org.springframework.test.context.event.EventPublishingTestExecutionListener@46c516a1, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@75662e60, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1468a686, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@194bde1b, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@77d5a38d, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@33049639, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@62094a49]
+14:06:08.458 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@96a5b54 testClass = UrlShortenerApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@14c3ffaa testClass = UrlShortenerApplicationTests, locations = '{}', classes = '{class com.observe.url.shortener.UrlShortenerApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@74cbaa46, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@cf6ebfd, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@684e39, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@579ba54d, org.springframework.boot.test.context.SpringBootTestArgs@1], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; true]], class annotated with @DirtiesContext [false] with mode [null].
+14:06:08.493 [Test worker] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.3.RELEASE)
+
+2020-08-30 14:06:08.879  INFO 85907 --- [    Test worker] c.o.u.s.UrlShortenerApplicationTests     : Starting UrlShortenerApplicationTests on SW-LP10336-b43c with PID 85907 (started by shardul.singh in /Users/shardul.singh/Downloads/shortener)
+2020-08-30 14:06:08.881  INFO 85907 --- [    Test worker] c.o.u.s.UrlShortenerApplicationTests     : No active profile set, falling back to default profiles: default
+2020-08-30 14:06:10.232  INFO 85907 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-30 14:06:10.574  INFO 85907 --- [    Test worker] c.o.u.s.UrlShortenerApplicationTests     : Started UrlShortenerApplicationTests in 2.068 seconds (JVM running for 3.573)
+2020-08-30 14:06:10.809  INFO 85907 --- [    Test worker] c.o.u.s.controller.URLController         : url received : www.google.com
+2020-08-30 14:06:10.810  INFO 85907 --- [    Test worker] c.o.u.s.repository.URLRepository         : Incrementing ID: 1
+2020-08-30 14:06:10.813  INFO 85907 --- [    Test worker] c.o.u.s.repository.URLRepository         : Saving url: www.google.com cid: C1 at b
+2020-08-30 14:06:10.813  INFO 85907 --- [    Test worker] c.o.u.s.controller.URLController         : Shortened url to: http://localhost:8080/b
+2020-08-30 14:06:10.815  INFO 85907 --- [    Test worker] c.o.u.s.controller.URLController         : Received shortened url to redirect: b
+2020-08-30 14:06:10.816  INFO 85907 --- [    Test worker] c.o.u.s.repository.URLRepository         : Retrieving at b
+2020-08-30 14:06:10.816  INFO 85907 --- [    Test worker] c.o.u.s.repository.URLRepository         : Retrieved www.google.com at b
+2020-08-30 14:06:10.816  INFO 85907 --- [    Test worker] c.o.u.s.service.URLConverterService      : Converting shortened URL back to www.google.com
+2020-08-30 14:06:10.817  INFO 85907 --- [    Test worker] c.o.u.s.controller.URLController         : Original URL: www.google.com
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 6.4.1</a> at 30 Aug, 2020 2:06:11 PM</p>
+</div>
+</div>
+</body>
+</html>
